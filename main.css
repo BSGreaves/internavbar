@@ -1,0 +1,9 @@
+nav ul {
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+li {
+	text-decoration: none;
+}
