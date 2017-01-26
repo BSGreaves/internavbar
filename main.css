@@ -1,9 +1,26 @@
-nav ul {
-	display: inline-flex;
-	flex-flow: row nowrap;
-	justify-content: space-around;
+body {
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
-li {
+nav {
+	justify-content: space-around;
+	display: inline-flex;
+	flex-flow: row nowrap;
+	background-color: #D2E3FF;
+	width: 100%;
+}
+
+nav ul {
+	justify-content: space-around;
+	display: inline-flex;
+	flex-flow: row nowrap;
+
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
 	text-decoration: none;
 }
